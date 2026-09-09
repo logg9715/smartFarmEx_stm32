@@ -1,0 +1,57 @@
+# ===== STM32CubeIDE =====
+
+# 빌드 산출물
+Debug/
+Release/
+*/Debug/
+*/Release/
+
+# 컴파일 중간 파일
+*.o
+*.d
+*.su
+*.cyclo
+*.lst
+*.map
+
+# 바이너리
+*.elf
+*.bin
+*.hex
+*.srec
+*.list
+
+# Eclipse 워크스페이스 (사용자별 설정)
+.settings/
+.metadata/
+RemoteSystemsTempFiles/
+*.launch
+.autotools
+
+# CubeMX 백업
+*.ioc.bak
+*.bak
+Backup/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 에디터
+.vscode/
+*.swp
+*~
+
+
+# ===== 커밋해야 하는 것 (참고) =====
+# 아래 파일들은 무시하면 안 된다. 없으면 프로젝트를 열 수 없다.
+#
+#   *.ioc          CubeMX 설정 (프로젝트의 원본)
+#   .project       Eclipse 프로젝트 정의
+#   .cproject      Eclipse C 프로젝트 설정
+#   .mxproject     CubeMX 생성 상태
+#   *.ld           링커 스크립트
+#   Core/          생성된 소스 + 사용자 코드
+#   Drivers/       HAL 라이브러리
+#   Startup/       스타트업 어셈블리
